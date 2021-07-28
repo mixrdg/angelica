@@ -48,6 +48,7 @@ button{
     color: white;
     font-size: 15px;
     font-weight: bolder;
+    border-radius: 25px;
 }
 
 div .produto11 img{
