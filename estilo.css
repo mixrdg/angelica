@@ -4,7 +4,7 @@ body{
 }
 .container{
    margin: auto;
-  background-color: #974d4f;
+  background-color:#0000006c
   width: 95%;
   background-image: url(https://lh3.googleusercontent.com/pw/AM-JKLVTl3HMuhCMaiyTwxb9KH-oz2dMrZJALpYmwg3ANEV83ZmmPuGBOTPluTm2kn7kGJBEeKFtGl01cDVgkxl241Y4uPLqgJEyiExZd2w4LNpSoBT2o1E0xn7cA9joBycKeg4ktxtRILxlMCihcmR0J3rk1w=w520-h129-no?authuser=0 );
   background-size: 500px;
@@ -36,7 +36,7 @@ body{
 div{
     background-color: rgba(255, 246, 246, 0.904);
     width: 240px;
-    /*border: black solid;*/
+    border: white solid;
     margin: 25px auto;
     font-size: 13px;
    
