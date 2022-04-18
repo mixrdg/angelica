@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color:rgb(0, 0, 0);
+
+}
+
+
+
+body{
+
+    background-color:black;
+}
+
+
+
+ul{
+    width: 80%;
+    background-color: aqua;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   background-color: rgb(255, 255, 255);
+   gap: 50px;
+}
+
+
+ul li {
+    
+    background-color: rgba(165, 42, 42, 0.072);
+  display: inline-block;
+  width: 250px;
+   
+}
+
+
+
+.produto img {
+    margin-top: 50px;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+
+button{
+   line-height: 25px;
+
+   color:white;
+    box-shadow: 5px 8px 15px black;
+    width: 150px;
+    border-radius: 25px;
+    margin: 18px auto ;
+    padding: 15px;
+    background-color: rgb(154, 55, 9);
+    
+}
+
+
+
+
+
+
