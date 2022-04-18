@@ -4,43 +4,58 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    color:rgb(0, 0, 0);
+    font-weight: 600;
+    color:rgb(237, 237, 237);
 
 }
 
 
 
-body{
+/*valor do produto*/
+.valor{
+    text-shadow: 0px 0px 10px rgb(255, 0, 0);
+    color: rgba(255, 255, 255, 0.938);
+    margin-top: 20px;
+    font-size: 35px;
+}
 
+body{
     background-color:black;
 }
 
 
+/*imagem de fundo*/
+.produto{
+    background-image: url(https://lh3.googleusercontent.com/pw/AM-JKLUHSEC6I8Gv1BLDAOYoy5OnVArNJ-PCP2rkcxVdqG9RzgeB-yqMDh2QhOYEcoJeu1jGS8KJmj-9a3h6n5meqiUX-ZOlHwX_XfTR5Dd5QnFxT5ab8B2cD9D2mRlD-Tn08Zzo1N5L2cIY3tsrKtDPd3tVAA=w777-h321-no?authuser=0);
+}
 
+
+/*caixa principal*/
 ul{
-    width: 80%;
-    background-color: aqua;
+    padding:30px;
+    width: 100%;
+   /* background-color: rgba(0, 255, 255, 0);*/
     text-align: center;
     margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-   background-color: rgb(255, 255, 255);
+   background-color: rgba(255, 255, 255, 0.446);
    gap: 50px;
 }
 
-
+/*onde as imagens estao*/
 ul li {
-    
-    background-color: rgba(165, 42, 42, 0.072);
-  display: inline-block;
-  width: 250px;
+    border: solid white 10px;
+    background-color: rgb(41, 41, 41);
+    display: inline-block;
+    width: 290px;
    
 }
 
 
-
+/*imagem do produto*/
 .produto img {
     margin-top: 50px;
     width: 250px;
@@ -49,7 +64,7 @@ ul li {
 
 }
 
-
+/*botão*/
 button{
    line-height: 25px;
 
