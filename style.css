@@ -20,33 +20,52 @@
 }
 
 body{
-    background-color:black;
+    border: solid rgba(0, 0, 0, 0) 10px;
+
+    background-color:rgb(0, 0, 0);
+}
+
+
+/*logo*/
+header{
+   /* border: solid black 10px;*/
+
+    padding: 15px;
+    background-color: rgb(128, 34, 7);
+    text-align: center;
+   
+}
+header img{
+
+    border:solid;
+    width: 50%;
 }
 
 
 /*imagem de fundo*/
 .produto{
     background-image: url(https://lh3.googleusercontent.com/pw/AM-JKLUHSEC6I8Gv1BLDAOYoy5OnVArNJ-PCP2rkcxVdqG9RzgeB-yqMDh2QhOYEcoJeu1jGS8KJmj-9a3h6n5meqiUX-ZOlHwX_XfTR5Dd5QnFxT5ab8B2cD9D2mRlD-Tn08Zzo1N5L2cIY3tsrKtDPd3tVAA=w777-h321-no?authuser=0);
+    background-size: 500px;
 }
 
 
 /*caixa principal*/
 ul{
-    padding:30px;
+    padding:40px;
     width: 100%;
    /* background-color: rgba(0, 255, 255, 0);*/
     text-align: center;
-    margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-   background-color: rgba(255, 255, 255, 0.446);
+   background-color: rgba(255, 255, 255, 0);
    gap: 50px;
 }
 
 /*onde as imagens estao*/
 ul li {
+    margin-top:20px;
     border: solid white 10px;
     background-color: rgb(41, 41, 41);
     display: inline-block;
@@ -74,10 +93,75 @@ button{
     border-radius: 25px;
     margin: 18px auto ;
     padding: 15px;
-    background-color: rgb(154, 55, 9);
+    background-color: rgba(8, 90, 255, 0.822);
     
 }
 
+@media screen and (max-width: 800px){
+    *{
+        color: black;
+    }
+
+ul{
+    background-color: rgba(255, 255, 255, 0);
+
+    box-shadow: 0px 0px 12px white;
+    border: 3px white solid;
+
+}
+
+
+/*logo*/
+    header{
+        border:solid white 3px;
+
+        padding: 15px;
+        background-color: rgb(128, 34, 7);
+        text-align: center;
+       
+    }
+    header img{
+    
+        border:solid white 3px;
+        width: 95%;
+    }
+
+    /*imagem do fundo*/
+    .produto{
+         background-image: url(https://lh3.googleusercontent.com/pw/AM-JKLUHSEC6I8Gv1BLDAOYoy5OnVArNJ-PCP2rkcxVdqG9RzgeB-yqMDh2QhOYEcoJeu1jGS8KJmj-9a3h6n5meqiUX-ZOlHwX_XfTR5Dd5QnFxT5ab8B2cD9D2mRlD-Tn08Zzo1N5L2cIY3tsrKtDPd3tVAA=w777-h321-no?authuser=0);
+         background-size:120px;
+        }
+
+        /*onde as imagens estao*/
+    ul li {
+        box-shadow: 0px 10px 20px 0px rgb(0, 0, 0);
+        border: solid rgba(38, 37, 37, 0) 10px;
+        background-color: rgb(255, 255, 255);
+        display: inline-block;
+        width: 290px;
+   
+}
+    /*valor do produto*/
+    .valor{
+        text-shadow: 0px 0px 10px rgb(255, 255, 255);
+        color: rgba(255, 0, 0, 0.938);
+        margin-top: 20px;
+        font-size: 35px;
+}
+    /*botão*/
+    button{
+        line-height: 25px;
+    
+        color:white;
+        box-shadow: 5px 8px 15px rgb(108, 105, 105);
+        width: 150px;
+        border-radius: 25px;
+        margin: 18px auto ;
+        padding: 15px;
+        background-color: rgb(0, 0, 0);
+        
+    }
+}
 
 
 
