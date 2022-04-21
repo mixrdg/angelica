@@ -118,6 +118,7 @@ ul{
 
 /*logo*/
     header{
+        position: fixed;
         margin-top:-10px;
         border:solid rgb(255, 255, 255) 3px;
         padding:20;
