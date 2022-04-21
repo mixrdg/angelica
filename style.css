@@ -28,24 +28,20 @@ body{
 
 /*logo*/
 header{
-   /* border: solid black 10px;*/
-
-    padding: 15px;
-    background-color: rgb(128, 34, 7);
-    text-align: center;
-   
+  
 }
 header img{
 
-    border:solid;
-    width: 50%;
 }
 
 
 /*imagem de fundo*/
 .produto{
+    
     background-image: url(https://lh3.googleusercontent.com/pw/AM-JKLUHSEC6I8Gv1BLDAOYoy5OnVArNJ-PCP2rkcxVdqG9RzgeB-yqMDh2QhOYEcoJeu1jGS8KJmj-9a3h6n5meqiUX-ZOlHwX_XfTR5Dd5QnFxT5ab8B2cD9D2mRlD-Tn08Zzo1N5L2cIY3tsrKtDPd3tVAA=w777-h321-no?authuser=0);
     background-size: 500px;
+    background-attachment: fixed;
+
 }
 
 
