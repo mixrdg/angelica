@@ -130,11 +130,10 @@ body{
         position: fixed;
         /*margin-top:-10px;*/
         border:solid rgb(255, 255, 255) 4px;
-        padding:;
         background-color: rgb(128, 34, 7);
         text-align: center;
        
-       
+
     }
     header img{
         width: 70%;
